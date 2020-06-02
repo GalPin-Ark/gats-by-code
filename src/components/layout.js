@@ -12,6 +12,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Divider from '@material-ui/core/Divider';
 import StickyFooter from './StickyFooter';
 import Header from "./header"
+import "../assets/scss/main.scss"
 import "../styles/layout.css"
 import 'bootstrap/dist/css/bootstrap.css'
 import "../styles/style.css"

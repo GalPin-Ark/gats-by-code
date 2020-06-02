@@ -8,16 +8,12 @@ module.exports = {
     author: `@GalPin-Ark`,
     menuLinks: [
       {
-        name: 'Home',
+        name: 'Inicio',
         link: '/'
       },
       {
-        name: 'About Us',
-        link: '/about-us'
-      },
-      {
-        name: 'Contact Us',
-        link: '/contact-us'
+        name: 'Contacto',
+        link: '/contact'
       },
     ],
   },
@@ -52,6 +48,14 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`,
+      },
+    },
+    'gatsby-plugin-sass',
+    'gatsby-plugin-offline',
+    {
+      resolve: `gatsby-source-datocms`,
+      options: {
+        apiToken: `ee3643454b03ead6fe51a8b647a7b1`
       },
     },
   ],

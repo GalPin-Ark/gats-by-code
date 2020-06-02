@@ -51,8 +51,8 @@ const ContactUs = () => {
 
 
   return (
-    <Layout page="Contact Us">
-      <SEO title="Contact Page" />
+    <Layout page="Contacto">
+      <SEO title="Contacto" />
       <Breadcumb page="Contact Us" />
       {/* <section className="section-50 section-md-top-50 bg-wild-wand">
 
